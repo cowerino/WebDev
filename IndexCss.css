@@ -72,7 +72,7 @@ nav a:hover::before{
 
 #videos li{
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     list-style: none;
     display: inline-block;
     padding-right: 30px;
