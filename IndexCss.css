@@ -91,6 +91,10 @@ nav a:hover::before{
     border-radius: 5%;
 }
 
+#videos img:hover{
+    transform: scale(1.05);
+}
+
 #UpgradeButton{
     background-color: #444444;
     border: none;
