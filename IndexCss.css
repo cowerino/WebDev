@@ -88,6 +88,29 @@ nav a:hover::before{
     height:180px;
     display: inline-block;
     padding-top: 30px;
+    border-radius: 5%;
 }
+
+#UpgradeButton{
+    background-color: #444444;
+    border: none;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+#UpgradeButton:hover{
+    transform: scale(1.1);
+}
+
+
 
 
