@@ -67,7 +67,7 @@ nav a::before{
 }
 
 nav a:hover::before{
-    width: 100%;
+     width: 100%;
 }
 
 #videos li{
@@ -93,26 +93,6 @@ nav a:hover::before{
 
 #videos img:hover{
     transform: scale(1.05);
-}
-
-#UpgradeButton{
-    background-color: #444444;
-    border: none;
-    color: orange;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
-
-    position: absolute;
-    top: 60%;
-    left: 5%;
-}
-
-#UpgradeButton:hover{
-    transform: scale(1.1);
 }
 
 
