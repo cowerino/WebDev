@@ -10,13 +10,15 @@
     border-radius: 10px;
 
     position: absolute;
-    top: 60%;
+    top: 85%;
     left: 5%;
 }
 
 #UpgradeButton:hover{
     transform: scale(1.1);
 } 
+
+
 
 
 

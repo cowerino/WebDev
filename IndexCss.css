@@ -95,6 +95,10 @@ nav a:hover::before{
     transform: scale(1.05);
 }
 
+.MyPics{
+    height: 400px;
+}
+
 
 
 
