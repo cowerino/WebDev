@@ -99,6 +99,14 @@ nav a:hover::before{
     height: 400px;
 }
 
+.image{
+    width:320px;
+}
+
+.jumbotron-fluid{
+    background-color: rgb(230, 92, 22);
+}
+
 
 
 
