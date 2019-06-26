@@ -4,3 +4,9 @@ body{
 .display-2{
     padding-left:30%;
 }
+img ~ p{
+    color: white;
+}
+img + p{
+    color:green;
+}

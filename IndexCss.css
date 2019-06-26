@@ -3,14 +3,24 @@ body{
     background: #babdb8;
     font-family: 'Work Sans', sans-serif;
     font-weight:500;
-}   
+    background-image: url("backgroundCity.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}  
+
+body::-webkit-scrollbar { 
+    width: 0; 
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
 header{
-    background: #ff6600ce;
+    background: teal;
 }
 
 header::after{
@@ -43,7 +53,7 @@ nav li{
 }
 
 nav a{
-    color: #444444;
+    color: lightgray;
     text-decoration: none;
     font-size: 14px;
     text-transform: uppercase;
@@ -88,7 +98,7 @@ nav a:hover::before{
     height:180px;
     display: inline-block;
     padding-top: 30px;
-    border-radius: 5%;
+    border-radius: 7%;
 }
 
 #videos img:hover{
@@ -99,14 +109,35 @@ nav a:hover::before{
     height: 400px;
 }
 
-.image{
-    width:320px;
-}
-
 .jumbotron-fluid{
     background-color: rgb(230, 92, 22);
 }
 
+br + img{
+    height:240px;
+    width:300px;
+}
 
+.bottom{
+    background-color: none;
+    margin: 20%;
+}
 
+.bottom>img{
+    width: 340px;
+}
+
+.container a>button{
+    background-color:teal;
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    font-size:20px;
+    position: absolute;
+    color: lightgray;
+}
+
+.container a>button:hover{
+    transform: scale(1.05);
+}
 
