@@ -14,7 +14,7 @@ function sendData(form){
     }
     else if(guessNum==randomNum){
         document.getElementById("cat").src="numberGuessWin.png";
-        document.body.style.background="url(party.gif)";
+        document.body.style.backgroundImage="url(party.gif)";
 
             if(tries==1)
             console.log("You got the answer in "+tries+" try.")

@@ -24,10 +24,15 @@ function loadDoc() {
             //console.log(weatherDataDays.list);
             //console.log(weatherDataDays.list.length);
 
+            let dayData =[];
+            
             for(let counter = 0; counter<weatherDataDays.list.length; counter++){
-                l
+                
+                
                 let currentDay = weatherDataDays.list[counter];
                 console.log(currentDay);
+
+                
             }
 
             //console.log(this.response);
