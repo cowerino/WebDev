@@ -127,6 +127,18 @@ br + img{
     width: 340px;
 }
 
+.button{
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    color: lightgray;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+
 .container a>button{
     background-color:teal;
     border: none;
@@ -140,4 +152,6 @@ br + img{
 .container a>button:hover{
     transform: scale(1.05);
 }
+
+
 
