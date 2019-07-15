@@ -26,7 +26,7 @@ function sendData(form){
     }
     tries++;
 }
-console.log("http://api.openweathermap.org/data/2.5/forecast?q=Salt+Lake+City,us&appid=73586499c17eb1dcc199a2f1291140e6")
+
 
 //questions:
 //how to make background party gif non-repeat across the page
