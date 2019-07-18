@@ -16,7 +16,7 @@ function loadComplete(evt) {
     console.log(weatherData);
     document.getElementById("place").innerHTML = weatherData.city.name;
     document.getElementById("day").innerHTML = (date.getMonth()+1) + "/" + date.getDate();
-    document.getElementById("currentTemp").innerHTML = weatherData.list[0].temp.day;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[0].temp.day+"°F";
     document.getElementById("conditions").innerHTML = weatherData.list[0].weather[0].main;
     document.getElementById("conditionsDesc").innerHTML = weatherData.list[0].weather[0].description;  
 }

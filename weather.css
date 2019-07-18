@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+    color: #eedfffd7
+}
+.contentBox{
+    background-color: lightblue;
+    background-image: url("sunnyDay.png");
+    width: 560px;
+    height: 400px;
+    
+}
+#place{
+    padding-left:35px;
+    padding-top: 95px;
+}
+#day{
+    padding-left:115px;
+    padding-top: 42px;
+}
+#conditions{
+    padding-left: 140px;
+    padding-top: 35px;
+}
+#currentTemp{
+    padding-left: 180px;
+    padding-top: 40px;
+}
+#conditionsDesc{
+    padding-left: 40px;
+    padding-top:30px;
+    font-size:24px;
+    color: lightcyan;
+    visibility: hidden;
+}
+p{
+    padding-left: 190px;
+    padding-bottom: 1px;
+    
+}
